@@ -1,3 +1,75 @@
+// Function to add two numbers
+function add(a, b) {
+  return a + b;
+}
+
+// Function to subtract b from a
+function subtract(a, b) {
+  return a - b;
+}
+
+// Function to multiply two numbers
+function multiply(a, b) {
+  return a * b;
+}
+
+// Function to divide a by b
+function divide(a, b) {
+  return a / b;
+}
+
+// Function to increment a number by 1
+function increment(n) {
+  return n + 1;
+}
+
+// Function to decrement a number by 1
+function decrement(n) {
+  return n - 1;
+}
+
+// Function to parse a number as an integer
+function makeInt(n) {
+  return parseInt(n, 10);
+}
+
+// Function to parse a number as a floating-point number
+function preserveDecimal(n) {
+  return parseFloat(n);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 require ( './root.js' );
 
 var a, b
